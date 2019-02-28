@@ -1,3 +1,36 @@
 body {
-    background-color: orange;
+    background-color: silver;
+}
+
+nav{
+    text-transform: uppercase;
+    font-family: PT Sans Narrow;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    font-style: italic;
+    background-color: pink !important; /*Only add !important when adding something unique from default code you used*/
+}
+
+header{
+    height: 300px;
+    width: 100%;
+    background-image: url("Cover.jpg");
+    background-size: cover;
+    
+    /*text align*/
+    text-align: center;
+}
+
+header p{
+    font-style: italic;
+    color: white;
+}
+
+header h1{
+    color: white;
 }
