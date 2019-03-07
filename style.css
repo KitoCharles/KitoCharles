@@ -1,21 +1,17 @@
 body {
     background-color: silver;
 }
-
 nav{
     text-transform: uppercase;
     font-family: PT Sans Narrow;
 }
-
 .nav-link{
     font-weight: bold;
 }
-
 .nav-link:hover{
     font-style: italic;
-    background-color: pink !important; /*Only add !important when adding something unique from default code you used*/
+    background-color: silver !important; /*Only add !important when adding something unique from default code you used*/
 }
-
 header{
     height: 300px;
     width: 100%;
@@ -25,12 +21,33 @@ header{
     /*text align*/
     text-align: center;
 }
-
 header p{
     font-style: italic;
     color: white;
 }
-
 header h1{
     color: white;
+}
+.services i{
+    /*Adjusting size and position of the icons*/
+    font-size: 30px;
+    padding: 25px 20px;
+    
+    /*Change color of icon*/
+    color: #fff;
+    background-color: #5bc0de;
+    
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+.services {
+    text-align: center;
+}
+.services span{
+    width: 200px;
+    display: inline-block;
 }
