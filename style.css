@@ -10,7 +10,7 @@ nav{
 }
 .nav-link:hover{
     font-style: italic;
-    background-color: silver !important; /*Only add !important when adding something unique from default code you used*/
+    background-color: silver !important; /*Only add "!important" when adding something unique from default code you used*/
 }
 header{
     height: 300px;
@@ -50,4 +50,17 @@ header h1{
 .services span{
     width: 200px;
     display: inline-block;
+}
+.teams img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.contact textarea{
+    height: 200px;
+    width: 100%;
+}
+.contact button{
+    width: 100%;
+    background-color: tomato;
 }
